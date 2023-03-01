@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ body{
+    margin: 0;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    color: #070707;
+ }
+ h1 {
+   font-weight: 700;
+   font-size: 48px;
+ }
+ h2 {
+   font-weight: 700;
+   font-size: 34px;
+ }
+ a {
+   text-decoration: none;
+ }
+ 
+ .container{
+    max-width: 970px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+ }
