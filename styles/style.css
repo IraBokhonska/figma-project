@@ -28,6 +28,7 @@
    font-weight: 700;
    font-size: 34px;
    margin: 100px 0 40px 0;
+   line-height: 46px;
  }
  h3 {
   font-weight: 700px;
@@ -41,6 +42,9 @@
    color: #828282;
    margin: 0 40px 0 0;
    letter-spacing: 0.02em;
+ }
+ a:hover {
+  color: #444141;
  }
 
  .container {
@@ -70,4 +74,76 @@
 .user-about p {
   margin: 0 0 30px 0;
 }
+/* -----------skills------------------ */
+.skills h2 {
+  margin-bottom: 30px;
+}
+.skills p {
+  margin-bottom: 25px;
+}
+.blocks-programs {
+}
+.program {
+}
+.program-icon {
+}
+.stars-container {
+}
+.star-item {
+}
+.grey-star {
+  color: #E5E5E5;
+}
+.portfolio p {
+  margin: 40px 0 70px 0;
+  text-decoration: underline;
+}
+.braun p {
+  margin-bottom: 100px;
+}
+/* --------footer-container----------- */
+.footer-container p {
+  width: 280px;
+  height: 46px;
+  margin: 0 auto;
+}
+.footer-container h2 {
+  margin-bottom: 20px;
+}
 
+.footer-icons-container {
+}
+.footer-icon {
+}
+
+button {
+  margin: 60px 0 30px 0;
+  background-color: #070707;
+  border-radius: 22px;
+  width: 180px;
+  height: 44px;
+  color: #FFFFFF ;
+}
+
+button:hover {
+  background-color:  #828282;
+}
+
+.footer-container h4 {
+  width: 200px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #828282;
+  margin: 0 auto;
+}
+.footer-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  margin-bottom: 60px;
+}
