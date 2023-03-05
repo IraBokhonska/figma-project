@@ -11,16 +11,19 @@
 }
 /* загальний стиль */
  body {
-  width: 970px;
-  background-color: #f6f6f6;
-  margin: 0px auto;
-  text-align: center;
+  background-color:  #FFFFFF;
   font-family: Open Sans;
   font-weight: 400;
   font-size: 18px;
   color: #070707;
   line-height: 25px;
  }
+ .container{
+  max-width: 970px;
+  margin: 0px auto;
+  text-align: center;
+ }
+
  h1 {
    font-weight: 700;
    font-size: 48px;
@@ -31,47 +34,49 @@
  h2 {
    font-weight: 700;
    font-size: 34px;
-   /* margin: 100px 0 40px 0; */
    line-height: 46px;
  }
  h3 {
   font-weight: 700px;
   font-size: 14px;
   color: #828282;
-
+  line-height: 19px;
  }
 
- a {
-   text-decoration: none;
-   color: #828282;
-   margin: 0 40px 0 0;
-   letter-spacing: 0.02em;
- }
- a:hover {
-  color: #444141;
- }
  /* -------menu------------ */
-
-.menu {
-  margin: 27px 0;
+ a {
+  text-decoration: none;
+  color: #828282;
+  margin: 0 40px 0 0;
+  letter-spacing: 0.02em;
 }
-
+a:hover {
+ color: #444141;
+ text-decoration: underline;
+}
 .black-menu {
   color: #070707;
+}
+a.black-menu:hover{
+  color: rgba(221, 88, 115, 0.8);
+}
+.menu {
+  padding: 27px 0;
 }
 .line {
   height: 0px;
   border: 1px solid #828282;
 }
-.user {
-}
 .user-photo {
-  width: 970px;
   height: 387px;
 }
+
 /* -----------user-about------------- */
+.about{
+  background-color:#E5E5E5;
+ }
 .user-about h2 {
-  padding-top: 100px;
+  padding: 100px 0 50px 0;
 }
 .user-about {
   width: 480px;
@@ -122,6 +127,7 @@
 /* ----------portfolio----------------- */
 .portfolio {
   padding: 100px 0;
+  background-color:#E5E5E5;
 }
 .fashion h2 {
   margin: 0 0 40px 0
@@ -163,16 +169,6 @@ button:hover {
   background-color:  #828282;
 }
 
-.footer-container h4 {
-  width: 200px;
-  height: 60px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  text-align: center;
-  color: #828282;
-  margin: 0 auto;
-}
 .footer-icons-container {
   display: flex;
   flex-direction: row;
@@ -180,4 +176,11 @@ button:hover {
   align-items: center;
   column-gap: 40px;
   margin-bottom: 60px;
+}
+.footer-container h3 {
+  max-width: 200px;
+  height: 60px;
+  font-weight: 400;
+  color: #828282;
+  margin: 0 auto;
 }
