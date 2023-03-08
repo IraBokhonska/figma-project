@@ -1,15 +1,5 @@
-/*Обнуленння*/
-*,
-*:before,
-*:after {
-	padding: 0;
-	margin: 0;
-	border: 0;
-} 
-* {
-  box-sizing: border-box;
-}
 /* загальний стиль */
+
  body {
   background-color:  #FFFFFF;
   font-family: Open Sans;
@@ -18,6 +8,7 @@
   color: #070707;
   line-height: 25px;
  }
+
  .container{
   max-width: 970px;
   margin: 0px auto;
@@ -31,11 +22,13 @@
    text-align: left;
    margin: 10px 0 50px 0;
  }
+
  h2 {
    font-weight: 700;
    font-size: 34px;
    line-height: 46px;
  }
+
  h3 {
   font-weight: 700px;
   font-size: 14px;
@@ -71,6 +64,13 @@ a.black-menu:hover{
   height: 387px;
 }
 
+h2 a {
+  text-decoration: none;
+  color: #070707;;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
 /* -----------user-about------------- */
 .about{
   background-color:#E5E5E5;
@@ -82,13 +82,16 @@ a.black-menu:hover{
   width: 480px;
   margin: 0 auto;
 }
+
 .user-about p {
   margin: 0 0 30px 0;
 }
 .user-about p:last-child {
   padding: 0 0 100px 0;
 }
+
 /* -----------skills------------------ */
+
 .skills {
   padding: 100px 0;
 }
@@ -98,6 +101,7 @@ a.black-menu:hover{
 .skills p {
   margin-bottom: 50px;
 }
+
 .blocks-programs {
   height: 220px;
   display: flex;  
@@ -105,6 +109,7 @@ a.black-menu:hover{
   justify-content:space-between ;
   position: relative;
 }
+
 .program {
   display: flex;
   flex-direction: column;
@@ -112,6 +117,7 @@ a.black-menu:hover{
   align-items: center;
   column-gap: 95px;
 }
+
 .container-icon-program {
   width: 90px;
   height: 38px;
@@ -122,9 +128,9 @@ a.black-menu:hover{
   flex-direction: row;
   flex: space-between;
 }
-.star-item {
-}
+
 /* ----------portfolio----------------- */
+
 .portfolio {
   padding: 100px 0;
   background-color:#E5E5E5;
@@ -141,6 +147,7 @@ a.black-menu:hover{
 }
 
 /* --------footer-container----------- */
+
 .footer-container {
   padding: 100px 0;
 }
@@ -153,16 +160,13 @@ a.black-menu:hover{
   margin-bottom: 20px;
 }
 
-.footer-icon {
-}
-
 button {
   margin: 60px 0 30px 0;
   background-color: #070707;
   border-radius: 22px;
   width: 180px;
   height: 44px;
-  color: #FFFFFF ;
+  color: #FFFFFF;
 }
 
 button:hover {
@@ -177,10 +181,17 @@ button:hover {
   column-gap: 40px;
   margin-bottom: 60px;
 }
+
 .footer-container h3 {
   max-width: 200px;
   height: 60px;
   font-weight: 400;
   color: #828282;
   margin: 0 auto;
+}
+
+.footer-icon a {
+  text-decoration: none;
+  margin: 0;
+  letter-spacing: 0;
 }
